@@ -76,6 +76,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		margin-top: 25px;
 	}
 
 	*, *:before, *:after {
@@ -84,11 +85,12 @@ input, select, textarea {
 
 	body {
 		background-color: white;
-		background-image: url("../../images/creativity.png"), url("../../images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: 100%, cover;
-		background-position: top left, center 0;
-		background-attachment: fixed, fixed;
+		background-image: url("../../images/creativity.png");
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: center center;
+		vertical-align: middle;
+		background-attachment: fixed;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -97,6 +99,7 @@ input, select, textarea {
 		color: #3a3939;
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 		-webkit-text-stroke: 0.25px;
+
 	}
 
 		body.is-scroll {
@@ -200,8 +203,8 @@ input, select, textarea {
 
 	header {
 		margin-bottom: 1em;
-		background-color: white;
-		opacity: 0.8;
+		background-color: rgba(255,255,255,0.8);
+		opacity: 1;
 		color: black;
 	}
 
@@ -2077,7 +2080,7 @@ input, select, textarea {
 			}
 
 		body.is-preload #header {
-			opacity: 0;
+			opacity: 1;
 		}
 
 			body.is-preload #header footer {
@@ -2085,14 +2088,14 @@ input, select, textarea {
 				-webkit-transform: translateY(1em);
 				-ms-transform: translateY(1em);
 				transform: translateY(1em);
-				opacity: 0;
+				opacity: 1;
 			}
 
 /* Banner */
 
 	#banner {
 		position: relative;
-		color: #fff;
+		color: black;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		background: lightgray url("images/banner.svg") bottom center no-repeat;
@@ -2359,10 +2362,10 @@ input, select, textarea {
 			body {
 				background-color: #203936;
 				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
-				background-repeat: repeat, no-repeat;
-				background-size: auto, 100% auto;
+				background-repeat: no-repeat;
+				background-size: auto, 80% auto;
 				background-position: top left, top center;
-				background-attachment: scroll, scroll;
+				background-attachment: fixed;
 				font-size: 14pt;
 			}
 

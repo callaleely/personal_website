@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload" background="./images/creativity.jpg">
+	<body class="is-preload">
 
 		<!-- Header -->
 			<section id="header">
@@ -62,7 +62,7 @@
 						<h2>Multiplayer<br />
 						Type racer</h2>
 					</header>
-					<p>An original multiplayer typeracer game using FLEX, Javascript, and CSS</p>
+					<p>An original multiplayer typeracer game using <strong>FLEX, Javascript, and CSS</strong></p>
 				</div>
 			</article>
 
@@ -108,22 +108,57 @@
 					<h2>Get In Touch</h2>
 					<p>Please contact me if you have any comments or questions!</p>
 				</header>
-				<div class="contact-container">
-					<div class="contact-title">
-						<h3>Address</h3>
-						<br/><br/>
-						<h3>Phone</h3><br/>
-						<h3>Email</h3>
+				<section>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="3"></textarea>
+								<br/>
+							</div>
+
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
 					</div>
-					<div class="contact-body">
-						San Francisco Bay Area<br/>
-						CA, USA <br/> <br/>
-						1-510-680-4591 <br/><br/>
-						jiyoung8751@gmail.com
-					</div>
-				</div>
+					</section>
+					<section class="split contact">
+						<section class="alt">
+							<h3>Address</h3>
+							<p>San Francisco Bay Area<br />
+							CA, USA</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p>(510) 680-4591</p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">jiyoung8751@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
 			</article>
 
+
+			
 		<!-- Generic -->
 		<!--
 			<article class="container box style3">

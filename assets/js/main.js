@@ -14,7 +14,7 @@
 				parallax: true,
 
 			// Parallax factor (lower = more intense, higher = less intense).
-				parallaxFactor: 10
+				parallaxFactor: 100
 
 		};
 
@@ -64,7 +64,7 @@
 				.on('scroll.overflow_parallax', function() {
 
 					// Adjust background position.
-						$bg.css('background-position', 'center ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+						$bg.css('background-position', 'center ' + 'center')
 
 				})
 				.on('resize.overflow_parallax', function() {
